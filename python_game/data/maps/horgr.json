@@ -1,0 +1,29 @@
+{
+  "id": "horgr",
+  "title": "El hörgr",
+  "width": 960,
+  "height": 600,
+  "tile_size": 32,
+  "region": "ritual",
+  "music": "ritual_low.ogg",
+  "layers": [
+    {"name": "floor", "z_index": 0, "tiles": [[0, 0, 0], [0, 0, 0]]},
+    {"name": "decor", "z_index": 1, "tiles": [[1, 1, 1], [1, 1, 1]]},
+    {"name": "roof", "z_index": 3, "visible": false, "tiles": []}
+  ],
+  "collisions": [
+    {"x": 120, "y": 110, "width": 720, "height": 24},
+    {"x": 120, "y": 110, "width": 24, "height": 385},
+    {"x": 816, "y": 110, "width": 24, "height": 385},
+    {"x": 120, "y": 471, "width": 720, "height": 24}
+  ],
+  "entities": [
+    {"id": "isa", "kind": "rune", "x": 274, "y": 155, "properties": {"rune": "ISA", "event": "read_isa"}},
+    {"id": "nauthiz", "kind": "rune", "x": 448, "y": 120, "properties": {"rune": "NAUTHIZ", "event": "read_nauthiz"}},
+    {"id": "perthro", "kind": "rune", "x": 622, "y": 155, "properties": {"rune": "PERTHRO", "event": "read_perthro"}},
+    {"id": "ingrid", "kind": "player_spawn", "x": 450, "y": 390, "properties": {"facing": "up"}}
+  ],
+  "transfers": [
+    {"id": "to_coast", "trigger": {"x": 430, "y": 105, "width": 100, "height": 30}, "target_map": "coast", "target_x": 205, "target_y": 392, "facing": "right", "condition_flag": "three_runes_read"}
+  ]
+}

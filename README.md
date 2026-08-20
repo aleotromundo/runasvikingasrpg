@@ -26,5 +26,6 @@ python3 main.py
 | `docs/base_tecnica_python_pygame.md` | Decisiones basadas en documentación oficial |
 | `docs/README_prototipo_python.md` | Explicación del vertical slice |
 | `docs/GUIA_PYGBAG.md` | Compilación y publicación web con Pygbag |
+| `docs/SISTEMA_JSON.md` | MapLoader, EventSystem y esquema de datos |
 
 La carpeta `client/` del proyecto de prueba web anterior no define el juego real; queda como referencia visual descartable para la dirección artística.

@@ -1,0 +1,32 @@
+{
+  "id": "coast_shadow",
+  "title": "La sombra que llegó con la marea",
+  "combatants": [
+    {
+      "id": "ingrid",
+      "name": "Ingrid",
+      "team": "heroes",
+      "max_hp": 48,
+      "hp": 48,
+      "attack": 12,
+      "defense": 5,
+      "speed": 10,
+      "max_mana": 8,
+      "mana": 8,
+      "abilities": ["basic_attack", "isa_guard", "nauthiz_bind", "perthro_fate", "ember_breath"]
+    },
+    {
+      "id": "coast_shadow",
+      "name": "Sombra de la costa",
+      "team": "enemies",
+      "max_hp": 38,
+      "hp": 38,
+      "attack": 10,
+      "defense": 3,
+      "speed": 7,
+      "max_mana": 0,
+      "mana": 0,
+      "abilities": ["basic_attack"]
+    }
+  ]
+}

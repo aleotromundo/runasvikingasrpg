@@ -1,7 +1,8 @@
-# Publicación del prototipo
+# Guía Pygbag — tareas
 
-- [ ] Verificar el usuario autenticado y el remoto.
-- [ ] Preparar el árbol sin archivos temporales ni cachés.
-- [ ] Crear el commit inicial del prototipo Python.
-- [ ] Ejecutar push a `origin/main`.
-- [ ] Confirmar las referencias remotas y la URL del repositorio.
+- [ ] Verificar la estructura `python_game/main.py` y los requisitos de pygame-ce.
+- [ ] Confirmar los requisitos de loop asíncrono de Pygbag.
+- [ ] Documentar instalación, empaquetado y prueba local.
+- [ ] Documentar publicación estática en GitHub Pages o Vercel.
+- [ ] Explicar el error CDN observado y sus alternativas.
+- [ ] Añadir la guía al repositorio y enlazarla desde el README.

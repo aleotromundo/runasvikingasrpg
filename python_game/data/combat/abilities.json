@@ -1,9 +1,0 @@
-{
-  "abilities": [
-    {"id": "basic_attack", "name": "Golpe de hierro", "power": 0, "cost": 0, "kind": "attack", "target": "enemy", "description": "Un golpe directo y seguro."},
-    {"id": "isa_guard", "name": "Isa: Hielo quieto", "power": 7, "cost": 2, "kind": "attack", "target": "enemy", "status": "slowed", "status_chance": 100, "description": "La runa detiene parte del impulso enemigo."},
-    {"id": "nauthiz_bind", "name": "Nauthiz: Presión", "power": 10, "cost": 3, "kind": "attack", "target": "enemy", "status": "bound", "status_chance": 100, "description": "La necesidad se vuelve una soga."},
-    {"id": "perthro_fate", "name": "Perthro: Dado oculto", "power": 15, "cost": 4, "kind": "attack", "target": "enemy", "description": "Una posibilidad todavía no vista cae del lado de Ingrid."},
-    {"id": "ember_breath", "name": "Aliento de brasa", "power": 8, "cost": 2, "kind": "heal", "target": "ally", "description": "Una respiración medida devuelve vigor."}
-  ]
-}

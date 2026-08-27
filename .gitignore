@@ -1,6 +1,0 @@
-
-__pycache__/
-*.pyc
-
-python_game/build/web-cache/
-python_game/build/version.txt
